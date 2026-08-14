@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://interview.code-corey.com/sitemap.xml
