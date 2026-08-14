@@ -35,9 +35,7 @@ jobs:
 
       - name: Install Deps
         run: |
-          pnpm approve-builds --all || true
           pnpm install --frozen-lockfile
-          pnpm rebuild @parcel/watcher || true
 
       - name: Build Docs
         env:
